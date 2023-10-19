@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+    <student>
+        <age>25</age>
+        <name>John Doe</name>
+    </student>
+    <student>
+        <age>22</age>
+        <name>Jane Smith</name>
+    </student>
+    <student>
+        <age>25</age>
+        <name>abdelhaq</name>
+    </student>
+    <student>
+        <age>0</age>
+    </student>
+    <student>
+        <age>25</age>
+        <name>youness</name>
+    </student>
+</students>
