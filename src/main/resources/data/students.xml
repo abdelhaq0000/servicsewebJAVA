@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <students>
     <student>
-        <age>25</age>
-        <name>John Doe</name>
+        <email>john.doe@example.com</email>
+        <name>John</name>
+        <noteN>85.5</noteN>
+        <noteR>90.0</noteR>
+        <prenom>Doe</prenom>
     </student>
     <student>
-        <age>22</age>
-        <name>Jane Smith</name>
+        <email>Abdelhaq.elmetlini@ump.ac.ma</email>
+        <name>Abdelhaq</name>
+        <noteN>85.5</noteN>
+        <noteR>90.0</noteR>
+        <prenom>Elmetlini</prenom>
     </student>
     <student>
-        <age>25</age>
-        <name>abdelhaq</name>
+        <email>Abdelhaq.elmetlini@ump.ac.ma</email>
+        <name>Abdelhaq</name>
+        <noteN>85.5</noteN>
+        <noteR>90.0</noteR>
+        <prenom>Elmetlini</prenom>
     </student>
     <student>
-        <age>0</age>
+        <email>Abdelhaq.elmetlini@ump.ac.ma</email>
+        <name>Abdelhaq</name>
+        <noteN>85.5</noteN>
+        <noteR>90.0</noteR>
+        <prenom>Elmetlini</prenom>
     </student>
     <student>
-        <age>25</age>
-        <name>youness</name>
+        <email>hiii.doe@example.com</email>
+        <name>khawla</name>
+        <noteN>900.0</noteN>
+        <noteR>9060.0</noteR>
+        <prenom>foo</prenom>
+    </student>
+    <student>
+        <email>hiii.doe@example.com</email>
+        <name>khawla</name>
+        <noteN>900.0</noteN>
+        <noteR>9060.0</noteR>
+        <prenom>foo</prenom>
+    </student>
+    <student>
+        <email>john.doe@example.com</email>
+        <name>abdelhaq matlini</name>
+        <noteN>95.5</noteN>
+        <noteR>88.0</noteR>
+        <prenom>Jane</prenom>
     </student>
 </students>

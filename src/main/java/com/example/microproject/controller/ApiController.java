@@ -1,6 +1,6 @@
 package com.example.microproject.controller;
 
-import ch.qos.logback.core.model.Model;
+import com.example.microproject.model.RelevieDesNotes;
 import com.example.microproject.model.Student;
 import com.example.microproject.model.Students;
 import com.example.microproject.service.XmlDataService;
@@ -19,6 +19,14 @@ public class ApiController {
     public Students getStudents() throws JAXBException {
         return xmlDataService.readXmlData();
     }
+   /* @GetMapping("/modules")
+    public Modules getModules()throws JAXBException{
+        return xmlDataService.readModulesXmlData();
+    }*/
+    @GetMapping("/RelevieDesNotes")
+    public RelevieDesNotes getRelevies()throws JAXBException{
+        return xmlDataService.readRelevieDesNotesXmlData();
+    }
 
     @GetMapping("/hi")
     public String hi() {
@@ -30,4 +38,5 @@ public class ApiController {
         xmlDataService.addStudent(student);
         return "Student added successfully.";
     }
+
 }

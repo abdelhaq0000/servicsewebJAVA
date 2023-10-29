@@ -1,28 +1,32 @@
 package com.example.microproject.model;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
+import javax.xml.bind.annotation.*;
+@Data
+@AllArgsConstructor
 @XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Student {
+   @XmlAttribute
     private String name;
-    private int age;
-
-    public String getName() {
-        return name;
-    }
-
+    @XmlAttribute
+    private int apogee;
+    @XmlAttribute
+    private String prenom;
     @XmlElement
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
+    private double noteN;
     @XmlElement
-    public void setAge(int age) {
-        this.age = age;
+    private double noteR;
+    @XmlAttribute
+    private String email;
+
+    private static int lastApogee = 0;
+    public Student() {
+        lastApogee++;
+        this.apogee = lastApogee;
     }
+
+
 }
